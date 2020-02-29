@@ -211,7 +211,7 @@ extern "C" {
 #endif /* __CYGWIN__ */
 
 /* ESP-IDF-specific: enable pthreads support */
-#ifdef __XTENSA__
+#ifdef __XTENSAX__
 #define _POSIX_THREADS                          1
 #define _UNIX98_THREAD_MUTEX_ATTRIBUTES         1
 #endif

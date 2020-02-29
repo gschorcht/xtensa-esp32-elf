@@ -87,7 +87,7 @@
 /* #undef _REENT_GLOBAL_ATEXIT */
 
 /* Define if small footprint nano-formatted-IO implementation used.  */
-/* #undef _NANO_FORMATTED_IO */
+#define _NANO_FORMATTED_IO 1
 
 /*
  * Iconv encodings enabled ("to" direction)
